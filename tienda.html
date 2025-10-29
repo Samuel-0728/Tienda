@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda</title>
+  <link rel="stylesheet" href="tienda.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Royal Drip</div>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="tienda.html">Tienda</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="carrito.html">Carrito</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Tienda de Ropa</h1>
+
+    <div class="contenedor">
+      <div class="producto" data-modal="modal-gorra">
+        <img src="images/gorra.jpg" alt="Gorra">
+        <p>Gorra</p>
+        <span class="precio">$35.000</span><br><br>
+        <button class="ver">Ver</button>
+      </div>
+
+      <div class="producto" data-modal="modal-camiseta">
+        <img src="images/camiseta.jpg" alt="Camiseta">
+        <p>Camiseta</p>
+        <span class="precio">$45.000</span><br><br>
+        <button class="ver">Ver</button>
+      </div>
+
+      <div class="producto" data-modal="modal-saco">
+        <img src="images/buzo.jpg" alt="Saco">
+        <p>Saco</p>
+        <span class="precio">$65.000</span><br><br>
+        <button class="ver">Ver</button>
+      </div>
+
+      <div class="producto" data-modal="modal-chaqueta">
+        <img src="images/chaqueta.jpg" alt="Chaqueta">
+        <p>Chaqueta</p>
+        <span class="precio">$85.000</span><br><br>
+        <button class="ver">Ver</button>
+      </div>
+
+      <div class="producto" data-modal="modal-pantalon">
+        <img src="images/pantalon.jpg" alt="Pantalón">
+        <p>Pantalón</p>
+        <span class="precio">$90.000</span><br><br>
+        <button class="ver">Ver</button>
+      </div>
+
+      <div class="producto" data-modal="modal-sudadera">
+        <img src="images/sudadera.jpg" alt="Sudadera">
+        <p>Sudadera</p>
+        <span class="precio">$60.000</span><br><br>
+        <button class="ver">Ver</button>
+      </div>
+
+      <div class="producto" data-modal="modal-pantaloneta">
+        <img src="images/pantaloneta.jpg" alt="Pantaloneta">
+        <p>Pantaloneta</p>
+        <span class="precio">$40.000</span><br><br>
+        <button class="ver">Ver</button>
+      </div>
+
+      <div class="producto" data-modal="modal-boxer">
+        <img src="images/boxer.jpg" alt="Boxer">
+        <p>Boxer</p>
+        <span class="precio">$25.000</span><br><br>
+        <button class="ver">Ver</button>
+      </div>
+
+      <div class="producto" data-modal="modal-medias">
+        <img src="images/medias.jpg" alt="Medias">
+        <p>Medias</p>
+        <span class="precio">$15.000</span><br><br>
+        <button class="ver">Ver</button>
+      </div>
+
+      <div class="producto" data-modal="modal-zapatos">
+        <img src="images/zapatos.jpg" alt="Zapatos">
+        <p>Zapatos</p>
+        <span class="precio">$120.000</span><br><br>
+        <button class="ver">Ver</button>
+      </div>
+    </div>
+  </main>
+
+
+  <div id="modales">
+  
+    <div class="modal" id="modal-gorra">
+      <div class="modal-contenido">
+        <h2>Gorra - $35.000</h2>
+        <p>Elige un diseño:</p>
+        <div class="opciones">
+          <img src="images/gorra.jpg" class="opcion">
+          <img src="images/gorra2.jpg" class="opcion">
+          <img src="images/gorra3.jpg" class="opcion">
+        </div>
+        <button class="agregar">Agregar al carrito</button>
+        <button class="cerrar">Cerrar</button>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-camiseta">
+      <div class="modal-contenido">
+        <h2>Camiseta - $45.000</h2>
+        <p>Elige un diseño:</p>
+        <div class="opciones">
+          <img src="images/camiseta.jpg" class="opcion">
+          <img src="images/camiseta2.jpg" class="opcion">
+          <img src="images/camiseta3.jpg" class="opcion">
+        </div>
+        <button class="agregar">Agregar al carrito</button>
+        <button class="cerrar">Cerrar</button>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-saco">
+      <div class="modal-contenido">
+        <h2>Saco - $65.000</h2>
+        <p>Elige un diseño:</p>
+        <div class="opciones">
+          <img src="images/buzo.jpg" class="opcion">
+          <img src="images/buzo2.jpg" class="opcion">
+          <img src="images/buzo3.jpg" class="opcion">
+        </div>
+        <button class="agregar">Agregar al carrito</button>
+        <button class="cerrar">Cerrar</button>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-chaqueta">
+      <div class="modal-contenido">
+        <h2>Chaqueta - $85.000</h2>
+        <p>Elige un diseño:</p>
+        <div class="opciones">
+          <img src="images/chaqueta.jpg" class="opcion">
+          <img src="images/chaqueta2.jpg" class="opcion">
+          <img src="images/chaqueta3.jpg" class="opcion">
+        </div>
+        <button class="agregar">Agregar al carrito</button>
+        <button class="cerrar">Cerrar</button>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-pantalon">
+      <div class="modal-contenido">
+        <h2>Pantalón - $90.000</h2>
+        <p>Elige un diseño:</p>
+        <div class="opciones">
+          <img src="images/pantalon.jpg" class="opcion">
+          <img src="images/pantalon2.jpg" class="opcion">
+          <img src="images/pantalon3.jpg" class="opcion">
+        </div>
+        <button class="agregar">Agregar al carrito</button>
+        <button class="cerrar">Cerrar</button>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-sudadera">
+      <div class="modal-contenido">
+        <h2>Sudadera - $60.000</h2>
+        <p>Elige un diseño:</p>
+        <div class="opciones">
+          <img src="images/sudadera.jpg" class="opcion">
+          <img src="images/sudadera2.jpg" class="opcion">
+          <img src="images/sudadera3.jpg" class="opcion">
+        </div>
+        <button class="agregar">Agregar al carrito</button>
+        <button class="cerrar">Cerrar</button>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-pantaloneta">
+      <div class="modal-contenido">
+        <h2>Pantaloneta - $40.000</h2>
+        <p>Elige un diseño:</p>
+        <div class="opciones">
+          <img src="images/pantaloneta.jpg" class="opcion">
+          <img src="images/pantaloneta2.jpg" class="opcion">
+          <img src="images/pantaloneta3.jpg" class="opcion">
+        </div>
+        <button class="agregar">Agregar al carrito</button>
+        <button class="cerrar">Cerrar</button>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-boxer">
+      <div class="modal-contenido">
+        <h2>Boxer - $25.000</h2>
+        <p>Elige un diseño:</p>
+        <div class="opciones">
+          <img src="images/boxer.jpg" class="opcion">
+          <img src="images/boxer2.jpg" class="opcion">
+          <img src="images/boxer3.jpg" class="opcion">
+        </div>
+        <button class="agregar">Agregar al carrito</button>
+        <button class="cerrar">Cerrar</button>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-medias">
+      <div class="modal-contenido">
+        <h2>Medias - $15.000</h2>
+        <p>Elige un diseño:</p>
+        <div class="opciones">
+          <img src="images/medias.jpg" class="opcion">
+          <img src="images/medias2.jpg" class="opcion">
+          <img src="images/medias3.jpg" class="opcion">
+        </div>
+        <button class="agregar">Agregar al carrito</button>
+        <button class="cerrar">Cerrar</button>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-zapatos">
+      <div class="modal-contenido">
+        <h2>Zapatos - $120.000</h2>
+        <p>Elige un diseño:</p>
+        <div class="opciones">
+          <img src="images/zapatos.jpg" class="opcion">
+          <img src="images/zapatos2.jpg" class="opcion">
+          <img src="images/zapatos3.jpg" class="opcion">
+        </div>
+        <button class="agregar">Agregar al carrito</button>
+        <button class="cerrar">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 Tienda Royal Drip</footer>
+
+  <script src="tienda.js"></script>
+  <div id="notificacion" class="notificacion"></div>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+/* ===== Navbar ===== */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+/* ===== Contenido principal ===== */
+main {
+  flex: 1;
+  padding: 120px 40px 40px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #111;
+}
+
+/* ===== Recuadro de contacto ===== */
+.contacto-recuadro {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contacto-recuadro p {
+  margin: 12px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.redes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.redes img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s;
+}
+
+.redes img:hover {
+  transform: scale(1.2);
+}
+
+main img {
+  width: 12px;
+  height: auto;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  margin-top: auto;
+}

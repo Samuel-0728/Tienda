@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/Logo.png" type="image/png">
+  <title>Carrito - Royal Drip</title>
+
+  <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Royal Drip</div>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="tienda.html">Tienda</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="carrito.html">Carrito</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Tu Carrito de Compras 🛍️</h1>
+
+    <section id="carrito-container">
+      <table id="carrito-tabla">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Total</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="carrito-items">
+
+        </tbody>
+      </table>
+
+      <div class="carrito-total">
+        <h2>Total: $<span id="total-general">0</span></h2>
+        <div class="carrito-botones">
+          <button id="vaciar-carrito">Vaciar carrito</button>
+          <button id="comprar">Finalizar compra</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Royal Drip | Todos los derechos reservados
+  </footer>
+
+  <script src="carrito.js"></script>
+  <div id="notificacion" class="notificacion"></div>
+</body>
+</html>
